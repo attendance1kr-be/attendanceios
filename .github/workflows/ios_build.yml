@@ -45,23 +45,3 @@ jobs:
         with:
           name: StaffTracker_iOS_Build
           path: StaffTracker_iOS.zip
-          jobs:
-  build-ios:
-    runs-on: macos-latest
-    steps:
-      # ... (checkout code, setup java, setup flutter, etc.)
-
-      - name: Install Apple Certificate and Provisioning Profile
-        # You must configure your signing certificates in GitHub Secrets for a valid IPA
-        run: |
-          # ... (Certificate installation steps)
-
-      - name: Build Flutter iOS IPA
-        run: flutter build ipa --release --export-options-plist=ios/ExportOptions.plist
-
-      - name: Upload IPA Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: StaffTracker_iOS_Build
-          # Uploads only the generated .ipa file
-          path: build/ios/ipa/*.ipa
