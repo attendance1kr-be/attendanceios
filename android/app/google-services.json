@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "798153616577",
+    "project_id": "staff-tracker-6f67e",
+    "storage_bucket": "staff-tracker-6f67e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798153616577:android:f991cd526edbe4fc167840",
+        "android_client_info": {
+          "package_name": "com.example.staff_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAoOzsj180HtC_lAcXPXYcHcQh3W8i7K8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798153616577:android:b8a6394e6faa59cc167840",
+        "android_client_info": {
+          "package_name": "com.raiment.staff_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAoOzsj180HtC_lAcXPXYcHcQh3W8i7K8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
